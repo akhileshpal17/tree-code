@@ -1,0 +1,19 @@
+.node circle {
+    fill: #fff;
+    stroke: steelblue;
+    stroke-width: 1.5px;
+}
+.node text {
+    font: 10px sans-serif;
+}
+.scrollbar
+{
+overflow: auto; /*for horizontal and vertical scroll bars */
+}
+/* or you can set scrolling in x and y direction */
+.scrollbarxy
+{
+overflow-x: auto; /*for horizontal scroll bar */
+overflow-y: auto; /*for vertical scroll bar */
+}
+
